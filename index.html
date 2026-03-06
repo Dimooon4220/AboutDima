@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене - Діма</title>
+    <style>
+        /* --- Загальні стилі --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        /* --- Контейнер --- */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* --- Хедер --- */
+        header {
+            text-align: center;
+            padding: 50px 0 30px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* --- Фото --- */
+        .profile-pic {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #0077cc;
+        }
+
+        /* --- Розділи --- */
+        section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #0077cc;
+            font-size: 2em;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* --- Контакти --- */
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 10px 20px;
+            background-color: #0077cc;
+            color: #fff;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .contact a:hover {
+            background-color: #005fa3;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        /* --- Адаптив --- */
+        @media(max-width: 600px){
+            header h1 {
+                font-size: 2em;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Хедер -->
+        <header>
+            <h1>Привіт, я Діма!</h1>
+            <p>Вітаю на моєму персональному сайті</p>
+            <img src="Photo/Dima.png" alt="Моє фото" class="profile-pic">
+        </header>
+
+        <!-- Про себе -->
+        <section>
+            <h2>Про мене</h2>
+            <p>Тут ти можеш написати про себе. Наприклад: хто ти, чим займаєшся, твої хобі, навички або досягнення.Привіт! Мене звати Діма. Я активна та творча людина, яка завжди шукає нові ідеї та проекти. Люблю спорт, особливо флорбол, адже я маю свій клуб "Маяк Вінниця" і вже досягав високих результатів — чемпіон України та переможець Кубку Маяка.
+
+                Окрім спорту, я цікавлюся технологіями та веб-розробкою, створюю сайти, презентації, редизайн та контент для соцмереж. Люблю експериментувати з дизайном, відеомонтажем та програмуванням на Python.
+
+                У вільний час займаюся англійською мовою і вдосконалюю свої навички, щоб ставати кращим у всьому, що роблю. Мій підхід до життя простий: постійно навчатися, долати перешкоди та отримувати задоволення від процесу.</p>
+        </section>
+
+        <!-- Мої досягнення -->
+        <section>
+            <h2>Досягнення</h2>
+            <p>Чемпіон України з флорболу – сезони 2018/2019 та 2019/2020.
+
+Переможець Кубку Маяка – двічі здобував кубок зі своєю командою.
+
+Срібний призер Кубку Карпат – зайняв 2 місце на престижному турнірі.
+
+Засновник та тренер клубу “Маяк Вінниця” – створив команду та керую її розвитком.
+
+Контент-мейкер та веб-дизайнер – розробляю сайти, презентації та креативний контент для соцмереж.</p>
+        </section>
+
+        <!-- Контакти -->
+        <section class="contact">
+            <h2>Контакти</h2>
+            <a href="mailto://dimaburavlov@gmail.com">Email</a>
+            <a href="https://t.me/Dima" target="_blank">Telegram</a>
+            <a href="https://instagram.com/Dimooon4220" target="_blank">Instagram</a>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Діма. Всі права захищені.
+    </footer>
+
+</body>
+</html>
